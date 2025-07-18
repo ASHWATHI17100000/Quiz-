@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+        <div class="quiz-container">
+        <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+        <div id="timer">Time Left: 60s</div>
+        <h2 id="question">Question text here</h2>
+        <div id="options"></div>
+        <button id="prevBtn" >Previous</button>
+        <button id="nextBtn" disabled >Next</button>
+        <div id="score"></div>
+        <button id="resetBtn" style="display: none; margin-top: 10px;">Reset Quiz<span class="reset-btn" onclick="resetText()"></span></button>
+        <audio id="correctSound" src="sounds/correct.mp3"></audio>
+        <audio id="wrongSound" src="sounds/wrong.mp3"></audio>
+        <audio id="completeSound" src="sounds/complete.mp3"></audio>
+        <audio id="failedSound" src="sounds/failed.mp3"></audio>
+        <audio id="fullscoreSound" src="sounds/fullscore.mp3"></audio>
+
+        </div>
+        
+        <script src="script.js"></script>
+        
+        </body>
+        </html>
+        
+
+
+    
+    
